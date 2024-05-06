@@ -70,6 +70,35 @@ class MyApp extends StatelessWidget {
             ],
           )),
 
+Scaffold(
+        backgroundColor: Color.fromARGB(255, 18, 124, 210),
+        appBar: AppBar(
+          title: Text("Prometheus"),
+          backgroundColor: Colors.amber,
+          elevation: 2, test
+          leading: Icon(Icons.menu),
+          actions: [
+            IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.logout),
+            ),
+          ],
+        ),
+        body: Center(
+          child: GestureDetector(
+            onTap: () {
+              //todo
+            },
+            child: Container(
+              height: 200,
+              width: 200,
+              color: Colors.amber,
+              child: Center(child: Text("Tap")),
+            ),
+          ),
+        ),
+      ),
+
           */
           
 
